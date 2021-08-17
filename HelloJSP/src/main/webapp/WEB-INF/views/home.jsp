@@ -11,6 +11,10 @@
 	<h3>Hello HTML</h3>
 	<p>이것은 namsk가 작성한 첫번째 HTML 입니다.</p>
 	
+	<ul>
+		<li><a href="<%= request.getContextPath() %>/users?a=joinform">회원가입</a></li>
+	</ul>
+	
 	<h4>GET 전송</h4>
 	<p>
 		<a href="hs?name=Servlet">HelloServlet 호출</a>
@@ -20,7 +24,7 @@
 	<form action="hs" method="POST">
 		<label for="last_name">성</label>
 		<input type="text" name="last_name" id="last_name" /><br />
-		<label for="first_name">이름</label>
+		<label for="first_name">이름</label>
 		<input type="text" name="first_name" id="first_name" /><br />
 		
 		<input type="submit" value="전송" />
