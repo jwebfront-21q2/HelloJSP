@@ -28,7 +28,7 @@
 	</form>
 	
 	<h4>Emaillist (Model 1)</h4>
-	<p><a href="/web/emaillist/">이메일리스트 (Model 1)</a>
+	<p><a href="/web/emaillist/">이메일리스트 (Model 1)</a>
 	
 	<h4>Emaillist (Model 2:MVC)</h4>
 	<p><a href="/web/el">이메일리스트 (Model 2)</a>
